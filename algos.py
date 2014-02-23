@@ -1,3 +1,21 @@
+"""
+coinbase-trader-gtk
+Copyright (C) 2014  Shanthanu Bhardwaj
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
+
 import hashlib
 import hmac
 import gtk
@@ -130,14 +148,14 @@ def read_data(filename):
 #s = get_http('https://coinbase.com/api/v1/account/balance').read()
 
 def begin_auth():
-	filename=os.environ['HOME']+'/.test'
+	filename=os.environ['HOME']+'/.coinbase-trader-gtk'
 	S,p,API_KEY,API_SECRET,pwd = read_data(filename)
 	#S=-1 #^these 3 have to go
 	return S,p,API_KEY,API_SECRET,pwd
 
 def end_auth(S,p,API_KEY,API_SECRET,pwd):
 	if (S != -1 and S!= -2):
-		filename=os.environ['HOME']+'/.test'
+		filename=os.environ['HOME']+'/.coinbase-trader-gtk'
 		#n=n+1;
 		#p=raw_input("Add to file:")+"\n"+p # f.read()
 		
