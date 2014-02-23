@@ -34,3 +34,9 @@ Once you have provided your `API_KEY` and `API_SECRET` you can ask the applicati
 - Improve error handling
 - Add more complex trades, and sequential queued orders
 - Make market graoh dynamic and enable zooming etc.
+
+
+# Disclaimer
+============
+
+This program executes trades between your coinbase account and linked bank account using the Coinbase API.  Use and trade with this program at your own risk.  I am not liable for any losses incurred by using this software.
