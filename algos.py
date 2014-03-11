@@ -215,10 +215,3 @@ def getText(top,bot):
     text = entry.get_text()
     dialog.destroy()
     return text
-
-#a='oY3S2Qvwv2n0WWts'
-#b='g1ePft6ZhzE54KQgDGqot23zXdbSu1LU'
-#bod='qty=0.01'
-#s=get_https('https://coinbase.com/api/v1/sells',a,b,bod)
-#print(s.read())
-
