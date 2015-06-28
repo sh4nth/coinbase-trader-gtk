@@ -19,7 +19,7 @@ I wrote this project mainly as a way to teach myself python and the Gtk API.  Th
 To install simply clone the repository or download the [zip](https://github.com/sh4nth/coinbase-trader-gtk/archive/master.zip) archive and run main.py
 
 ## Settings
-1. You will need to create an API KEY buy going to https://coinbase.com/account/api
+1. You will need to create an API KEY by going to https://coinbase.com/account/api
 2. Give the key permission to `buy`, `sell` and view your `balance`
 3. On the first run, you will be asked for a password and your `API_KEY` and `API_SECRET`
 4. Your keys and order data will be stored in an AES encrypted file `$HOME/.coinbase-trader-gtk`
@@ -33,7 +33,7 @@ Once you have provided your `API_KEY` and `API_SECRET` you can ask the applicati
 - Improve UI and implement multi-threading and as well as option to minimize to system tray
 - Improve error handling
 - Add more complex trades, and sequential queued orders
-- Make market graoh dynamic and enable zooming etc.
+- Make market graph dynamic and enable zooming etc.
 
 
 # Disclaimer
